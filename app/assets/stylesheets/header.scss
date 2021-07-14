@@ -1,0 +1,17 @@
+@import 'variables';
+
+$header-padding-y: 16px;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $base-bg-color;
+  padding: $header-padding-y 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  
+  h1 {
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+}
